@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  qwe = '';
+
+  func(b) {
+    console.log('State is ' + b);
+    this.qwe = b;
+  }
 }
